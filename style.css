@@ -1,0 +1,55 @@
+body
+{
+    background-size:cover;
+    background-repeat: no-repeat;
+    
+}
+.heading
+{
+    font-size: 20px;
+    width: 100%;
+    margin: 0px;
+    color: black;
+    font-weight: bold;
+}
+
+.note
+{
+    font-size: 17px;
+    color: blue;
+}
+
+.div_speed
+{
+    float: left;
+}
+
+.div_speed_img,.div_volume_img
+{
+    width: 200px;
+    border-radius: 100px;
+}
+
+#speed
+{
+    font-size: 23px;
+    margin: 15px;
+}
+
+.div_volume
+{
+    float: right;
+}
+
+#volume
+{
+    font-size: 23px;
+    margin: 15px ;
+}
+
+canvas
+{
+   border:6px solid white;
+   border-radius: 20px;
+   margin-top: 40px;
+}

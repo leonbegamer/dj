@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dj weeb</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.8.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.8.0/addons/p5.sound.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body background="background.png" class="text-center">
+    <h3 class="btn btn-danger heading">spot byjus
+        <br><br>
+        <span class="note">observação: mova seu pulso esquerdo para cima e para baixo para controlar o volume. Mova seu
+            pulso direito para controlar a velocidade</span>
+    </h3>
+    <div class="div_speed">
+        <img src="caixa_de_som.gif" class="div_speed_img">
+        <br>
+        <h3 class="btn btn-info" id="speed">velocidade</h3>
+        
+    </div>
+    <div class="div_volume mx-auto">
+        <img src="caixa_de_som.gif" class="div_volume_img">
+
+        <br>
+        <h3 class="btn btn-info" id="volume">volume</h3>
+        
+    </div>
+    <br><br>
+
+    <button onclick="play()" class="btn btn-success play_button">iniciar</button>
+    <button onclick="stop()"  class="btn btn-info">parar</button>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
